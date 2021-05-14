@@ -1,0 +1,22 @@
+name: flutter_calendar_nullsafety
+description: A calendar widget that uses Material Design.
+version: 1.0.0
+author: Original author Eric Windmill <ericwindmill.com> Forked and update it by Yassine Ben Massaoud
+homepage: https://github.com/apptreesoftware/flutter_calendar
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  tuple: ^2.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
